@@ -1,0 +1,176 @@
+
+.body{
+    display: inline-block;
+}
+
+
+.uber{
+    font-size:100%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: none;
+    position: absolute;
+    top:10px;
+    left:20px;
+}
+
+.uber:hover{
+    opacity: 0.8;
+}
+
+.uber:active{
+    background-color: white;
+    color: black;
+}
+
+.amazon{
+    background-color:rgb(255,216,20);
+    width: 250px;
+    height:50px;
+    border: none;
+    border-radius: 25px;
+    font-size: large;
+    margin-top: 10px;
+    margin-left: 50px;
+    cursor: pointer;
+    position: absolute;
+    top:630px;
+    right:20px;
+    transition: 1s;
+
+}
+.amazon:hover{
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    }
+
+.github{
+    background-color:rgb(46,164,79);
+    width:80px;
+    height:30px;
+    color:white;
+    border: none;
+    border-radius:5px;
+    font-weight:bold;
+    cursor:pointer;
+    position: absolute;
+    top:1cm;
+    left: 18cm;
+}
+.github:hover{
+    opacity: 0.8;
+    box-shadow: -1px -1px 5px rgba(0,0,0,0.7);
+}
+.bootstrap_get{
+    background-color: rgb(121,82,179);
+    width: 170px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color:white;
+    font-weight: bold;
+    font-size:18px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right:200px;
+}
+.bootstrap_get:hover{
+    box-shadow: 3px 3px 3px rgba(121,82,179,0.7);
+}
+
+.bootstrap_down{
+    background-color: white;
+    color: rgb(121,82,179);
+    font-size: 100%;
+    width:170px;
+    height:50px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color:  rgb(121,82,179);
+    cursor: pointer;
+    position:absolute;
+    top: 20px;
+    right:20px;
+
+}
+.bootstrap_down:hover{
+    background-color:rgb(121,82,179) ;
+    color:white;
+
+}
+.linked_in{
+    background: rgb(38, 38, 148);
+    font-size: 100%;
+    font-weight: bold;
+    border-color: black;
+    width: auto;
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 35px;
+    color: white;
+    position:absolute;
+    top:3cm;
+    left: 1cm;
+    cursor: pointer;
+}
+.linked_in:hover{
+    background-color:rgb(28, 28, 122) ;
+    box-shadow: 1px 1px 1px rgba(24,24,95,0.7);
+}
+.save{
+
+    border-color: rgb(25, 25, 77);
+    background-color: white;
+    color:rgb(38, 38, 148) ;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 3cm;
+    left: 11.5cm;
+    border-radius: 25px;
+    font-size: 100%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.save:hover{
+    background-color: rgb(28, 28, 122);
+    color:white;
+
+}
+
+
+.youtube{
+    color: black;
+    position: absolute;
+    top: 10cm;
+    left: 3cm;
+    font-size: 500%;
+    cursor: pointer;
+}
+
+.mouse{
+    background-color:rgb(255,216,20);
+    width: 250px;
+    height:50px;
+    border: none;
+    border-radius: 25px;
+    font-size: large;
+    margin-top: 10px;
+    margin-left: 50px;
+    cursor: pointer;
+    position: absolute;
+    top:630px;
+    right: 300px;
+    transition: 1s;
+}
+.mouse:hover{
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+    
